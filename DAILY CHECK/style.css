@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(235, 235, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.parent_contanier{
+    box-shadow: 5px 8px 8px white;
+    /* border-radius: 20px; */
+    background-color: white;
+    text-align: center;
+    /* color: white; */
+    height: auto;
+    width: auto;
+    padding: 30px;
+    
+}
+.parent_contanier h1{
+    font-family: 'Nunito', sans-serif;
+text-align: center; 
+color: blue;
+
+}
+
+.individualTask{
+    display: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+.task{
+    width: 30vh;
+    height: 20px;
+    border-radius: 10px;
+    
+}
+
+.task::placeholder{
+    text-align: center;
+}
+
+.submit{
+    border-radius: 10px;
+    /* background-color: red; */
+    color: white;
+    /* background-color: rgb(155, 155, 248); */
+    background-color: rgb(250, 67, 67);
+    height: 27px;
+    width: 65px;
+}
+.activities{
+    margin-top: 20px;
+    text-align: left;
+}
+.activities div{
+    padding: 10px;
+    /* border: 0.5px solid green; */
+    border-top: none;
+}
+
+.activities div a{
+    color: black;
+    text-decoration: none;
+    font-size: 19px;
+    
+
+}
+
+.select{
+    width: 150px;
+}
+
+
+.day{
+    font-size: 25px;
+    margin-left: -8px;
+}
+
+
+@media screen and(max-width:900px){
+    .btns{
+
+    }
+}
+

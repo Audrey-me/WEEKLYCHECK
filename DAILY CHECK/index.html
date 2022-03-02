@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DAILY CHECK</title>
+    
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- google fonts link -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+   </style> 
+</head>
+<body>
+    <!-- the parent contanier -->
+        <div class="parent_contanier">
+        <h1 >MY WEEKLY CHECK</h1>
+        
+        
+
+        <!-- weekday options -->
+        <label for="day" style="text-align: center;">Select a weekday</label>
+        <select id="select" size="1">
+            <option selected>choose a day</option>
+            <option value="monday">Monday</option>
+            <option value="tuesday">Tuesday</option>
+            <option value="wednesday">Wednesday</option>
+            <option value="thursday">Thursday</option>
+            <option value="friday">Friday</option>
+            <option value="weekends">Weekends</option>
+        </select>
+
+        <!-- the input field -->
+        <div class="individualTask">
+            <input type="text" id="task" placeholder="e.g work on a project" class="task"></input>
+            <button type="submit" id="btn-submit" class="submit">submit</button>
+        </div>
+
+        <!--items contanier  -->
+        <div id="activities" class="activities">
+        <div class ="day monday">Monday</div> 
+        <div class ="day tuesday">Tuesday</div> 
+        <div class="day wednesday">Wednesday</div> 
+        <div class="day thursday">Thursday</div> 
+        <div class="day friday">Friday</div> 
+        <div class="day weekends">Weekends</div> 
+        
+         </div> 
+         
+    </div>
+
+    
+        <script src="script.js"></script>
+        <script src="https://kit.fontawesome.com/d4427cce40.js" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>
+
+
